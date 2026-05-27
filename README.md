@@ -1,6 +1,6 @@
 # Python Practice Programs
 
-This repository contains beginner-friendly Python practice programs.
+This repository contains beginner to advanced Python Projects.
 
 ## Topics Covered
 
@@ -11,33 +11,19 @@ This repository contains beginner-friendly Python practice programs.
 - Operators
 
 ### 2. Loops
-- for loop
-- while loop
-- factorial
-- patterns
 
 ### 3. Strings
-- reverse string
-- palindrome
-- vowel count
 
 ### 4. Lists
-- sorting
-- duplicates
-- sum of list
+
 
 ### 5. Functions
-- calculator
-- prime function
-- custom functions
+
 
 ### 6. Mini Projects
-- ATM simulation
-- Guess the number
-- Rock paper scissors
-
+- Using the print function to output information to the user
 ## Goal
-To improve Python programming and logic-building skills through small practice programs.
+To improve Python programming and logic-building skills through practice small projects.
 
 ## Author
 Sumathi Periarakki
