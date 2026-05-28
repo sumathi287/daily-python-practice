@@ -2,7 +2,8 @@ target = input("Welcome to quiz program!\nDo you want to play?\n")
 count = 0
 temp_var = 0
 score = 0
-if target == "yes":
+# execute the block of if statement based on user input
+if "yes" in target:
     print("okay lets play :)")
     user_input = input("1.What does RAM stand for?\n")
     if user_input.upper() == "random access memory".upper():
@@ -34,14 +35,7 @@ if target == "yes":
         count = count + 25
     else:
         print("Incorrect!")
-    user_input = input("5.What is something you simply cannot live without??\n")
-    if user_input.upper() == "sumi".upper() or user_input.upper() == "sumathi".upper():
-        print(f"Correct Honey...{"\u2665"}{"\u2665"}{"\u2665"}!")
-        score += 1
-        count = count + 25
-    else:
-        print("Incorrect,I realy hate you...!")
 else:
     quit()
 print(f"you got {score } questions is correct\n")
-print(f"you got {(score /5) * 100} %")
+print(f"you got {(score /4) * 100} %")
