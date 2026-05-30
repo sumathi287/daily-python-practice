@@ -3,7 +3,7 @@ import random
 # global variables
 i = list(range(1, 100))
 random_number = random.choice(i)
-print(random_number)
+# print(random_number)
 user_input = input("choose the random number between 1 and 100\n")
 # logic for give the clue for user to find the correct number
 while int(user_input) != random_number:
