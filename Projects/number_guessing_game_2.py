@@ -1,6 +1,8 @@
 from random import choice
 from sys import exit
 
+# global variables
+
 i = ["ROCK", "PAPER", "SCISSORS"]
 random_choice = choice(i)
 
@@ -11,10 +13,12 @@ temp = temp.upper()
 temp_var = "Y"
 
 
+# fuction to print the string which is picked by computer
 def computer_selection():
     print(f"computer picked {random_choice.lower()}")
 
 
+# funtion to contain logic code for match user input string & string picked by compiler
 def play():
     user_input = input("Type Rock/Paper/Scissors:")
     user_input = user_input.upper()
@@ -48,6 +52,8 @@ def play():
     else:
         print("enter a wrong string!!\n")
 
+
+# entry code for game : logic for check the condition of user input
 
 while temp_var == "Y":
     if temp == "Y":
