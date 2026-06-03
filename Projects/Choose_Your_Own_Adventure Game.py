@@ -10,7 +10,7 @@ def Final_door():
     user_input3 = input(
         'A voice asks:\n"What is the one thing you can never live without?"\n'
     )
-    if "sumi" or "sumathi" or "makki" in user_input3.lower():
+    if "sumi" or "sumathi" or "makki" in user_input3.lower(): #!!! try using the 'any' keyword here
         print(
             f"--------------------------------------\n{"\u2764\ufe0f"}   Correct!\n---------------------\nYou found the greatest treasure.\nThe treasure was never gold, diamonds, or magic.\nIt was YOU.\nThanks for being part of my world {"\U0001F30E"}{"\u2764\ufe0f"}"
         )
@@ -86,3 +86,53 @@ if "open" in user_input.lower():
     open()
 elif "ignore" in user_input.lower():
     Ignore()
+
+#Positive aspects:
+# IT is lovely to see some code modularity! Kudos to you!!! for using functions!!
+# naming of variables is nice as well! way to go!!!
+
+# bug 1:
+# when i answer in a tanglish word for question: "What is the one thing you can never live without?"
+# it gave me answer correct! But i remember developer telling it is not included in possible answers
+# bug 4: later noticed, all answers provide the same output.
+
+#bug 2:
+# Do you:
+# 1.Open it
+# 2.Ignore it
+# ignore it
+# --------------------------You walk away, but your curiosity grows
+# ----------------
+# Do you:
+# 1. Go back and open it
+# 2. Leave it forever
+# leave it forever
+# ----------------------------
+# One golden key is present inside the box
+# -----------------------
+# you find the two doors
+# Do you choose:
+# 1.Red color
+# 2. Blue color
+# !!!!! IT should have never gone to this branch at all, rather just quit the program
+
+#bug 3:
+# You wakeup and find a small gift box on your table
+# Do you:
+# 1.Open it
+# 2.Ignore it
+# ignore it
+# --------------------------You walk away, but your curiosity grows
+# ----------------
+# Do you:
+# 1. Go back and open it
+# 2. Leave it forever
+# go back and open it
+# ----------------------------
+# One golden key is present inside the box
+# -----------------------
+# you find the two doors
+# Do you choose:
+# 1.Red color
+# 2. Blue color
+# !!!!! IT should have never gone to this branch at all, rather just quit the program
