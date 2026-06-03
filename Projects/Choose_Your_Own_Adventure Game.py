@@ -10,7 +10,7 @@ def Final_door():
     user_input3 = input(
         'A voice asks:\n"What is the one thing you can never live without?"\n'
     )
-    if "sumi" or "sumathi" in user_input3.lower():
+    if "sumi" or "sumathi" or "makki" in user_input3.lower():
         print(
             f"--------------------------------------\n{"\u2764\ufe0f"}   Correct!\n---------------------\nYou found the greatest treasure.\nThe treasure was never gold, diamonds, or magic.\nIt was YOU.\nThanks for being part of my world {"\U0001F30E"}{"\u2764\ufe0f"}"
         )
